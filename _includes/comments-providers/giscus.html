@@ -1,0 +1,28 @@
+<script>
+    'use strict';
+
+    (function () {
+        var commentContainer = document.querySelector('#giscus-comments');
+
+        if (!commentContainer) {
+            return;
+        }
+
+        var script = document.createElement('script');
+        script.setAttribute('src', 'https://giscus.app/client.js');
+        script.setAttribute('data-repo', 'hongji3354/blog-comment');
+        script.setAttribute('data-repo-id', 'R_kgDOKOvxiQ');
+        script.setAttribute('data-category', 'Announcements');
+        script.setAttribute('data-category-id', 'DIC_kwDOKOvxic4CZDHT');
+        script.setAttribute('data-mapping', 'pathname');
+        script.setAttribute('data-strict', '0');
+        script.setAttribute('data-reactions-enabled', '1');
+        script.setAttribute('data-emit-metadata', '0');
+        script.setAttribute('data-input-position', 'bottom');
+        script.setAttribute('data-theme', 'preferred_color_scheme');
+        script.setAttribute('data-lang', 'ko');
+        script.setAttribute('crossorigin', 'anonymous');
+
+        commentContainer.appendChild(script);
+    })();
+</script>
