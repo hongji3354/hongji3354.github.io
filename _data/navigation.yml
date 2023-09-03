@@ -18,7 +18,19 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Java"
-    url: /categories/java/
-  - title: "Spring"
-    url: /categories/spring/
+  - title: "Language"
+    children:
+      - title: "Java"
+        url: /categories/language/java/
+  - title: "Framework"
+    children:
+      - title: "Spring"
+        url: /categories/framework/spring/
+      - title: "JPA"
+        url: /categories/framework/jpa/
+  - title: "Cloud"
+    children:
+      - title: "AWS"
+        url: /categories/cloud/aws/
+  - title: "Tool"
+    url: /categories/tool/

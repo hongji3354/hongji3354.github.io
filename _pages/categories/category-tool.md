@@ -1,9 +1,9 @@
 ---
-title: "Java"
+title: "Tool"
 layout: category
-permalink: /categories/language/java/
+permalink: /categories/tool/
 author_profile: true
-taxonomy: Java
+taxonomy: Tool
 sidebar:
   nav: "categories"
 ---

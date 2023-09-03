@@ -1,9 +1,9 @@
 ---
-title: "Java"
+title: "AWS"
 layout: category
-permalink: /categories/language/java/
+permalink: /categories/cloud/aws/
 author_profile: true
-taxonomy: Java
+taxonomy: AWS
 sidebar:
   nav: "categories"
 ---
